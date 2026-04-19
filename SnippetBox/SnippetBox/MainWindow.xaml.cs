@@ -12,17 +12,31 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Media;
 
 namespace SnippetBox
 {
+
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        SoundPlayer Simple = new SoundPlayer("G:\\VS projects\\SnippetBox\\SnippetBox\\Sounds\\cartoon-button-click-sound.wav");
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void NewVault_Click(object sender, RoutedEventArgs e)
+        {
+            
+            Simple.Play();
+        }
+
+        private void SettingsButton_Click(object sender, RoutedEventArgs e)
+        {
+            Simple.Play();
         }
     }
 }

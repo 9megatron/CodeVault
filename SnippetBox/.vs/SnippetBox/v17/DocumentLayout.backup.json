@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{C38955FD-897B-41C7-AE29-FC13261CED76}|SnippetBox\\SnippetBox.csproj|solutionrelative:snippetbox\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C38955FD-897B-41C7-AE29-FC13261CED76}|SnippetBox\\SnippetBox.csproj|g:\\vs projects\\snippetbox\\snippetbox\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C38955FD-897B-41C7-AE29-FC13261CED76}|SnippetBox\\SnippetBox.csproj|solutionrelative:snippetbox\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C38955FD-897B-41C7-AE29-FC13261CED76}|SnippetBox\\SnippetBox.csproj|g:\\vs projects\\snippetbox\\snippetbox\\styles\\buttonsstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C38955FD-897B-41C7-AE29-FC13261CED76}|SnippetBox\\SnippetBox.csproj|solutionrelative:snippetbox\\styles\\buttonsstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C38955FD-897B-41C7-AE29-FC13261CED76}|SnippetBox\\SnippetBox.csproj|G:\\VS projects\\SnippetBox\\SnippetBox\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C38955FD-897B-41C7-AE29-FC13261CED76}|SnippetBox\\SnippetBox.csproj|solutionrelative:SnippetBox\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,25 +30,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ButtonsStyle.xaml",
+              "DocumentMoniker": "G:\\VS projects\\SnippetBox\\SnippetBox\\Styles\\ButtonsStyle.xaml",
+              "RelativeDocumentMoniker": "SnippetBox\\Styles\\ButtonsStyle.xaml",
+              "ToolTip": "G:\\VS projects\\SnippetBox\\SnippetBox\\Styles\\ButtonsStyle.xaml",
+              "RelativeToolTip": "SnippetBox\\Styles\\ButtonsStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-19T15:08:05.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "G:\\VS projects\\SnippetBox\\SnippetBox\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SnippetBox\\MainWindow.xaml",
-              "ToolTip": "G:\\VS projects\\SnippetBox\\SnippetBox\\MainWindow.xaml",
-              "RelativeToolTip": "SnippetBox\\MainWindow.xaml",
+              "ToolTip": "G:\\VS projects\\SnippetBox\\SnippetBox\\MainWindow.xaml*",
+              "RelativeToolTip": "SnippetBox\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-18T15:13:06.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "G:\\VS projects\\SnippetBox\\SnippetBox\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SnippetBox\\MainWindow.xaml.cs",
               "ToolTip": "G:\\VS projects\\SnippetBox\\SnippetBox\\MainWindow.xaml.cs",
               "RelativeToolTip": "SnippetBox\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T15:13:06.038Z",
               "EditorCaption": ""

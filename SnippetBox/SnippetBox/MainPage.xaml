@@ -1,0 +1,71 @@
+﻿<Page x:Class="SnippetBox.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SnippetBox"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainPage">
+
+    <Grid x:Name="MainGrid" Background="Black">
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+
+
+        <Grid Grid.Row="0" Grid.ColumnSpan="3">
+            <Button Grid.Column="7"  Background="Transparent" Style="{StaticResource NeonButtonStyle}" Click="NewVault_Click" Margin="10,5,50,5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Stretch="Fill" Source="https://raw.githubusercontent.com/9megatron/CodeVault/d2a468abe9829c353b04618a154f4881cb8ab869/images/icons8-plus-48.png"/>
+                </StackPanel>
+            </Button>
+            <Button Grid.Column="6" Background="Transparent" Style="{StaticResource NeonButtonStyle}" Click="SettingsButton_Click" Margin="50,5,0,5">
+                <StackPanel Orientation="Horizontal">
+                    <Image Stretch="Fill" Source="https://raw.githubusercontent.com/9megatron/CodeVault/d2a468abe9829c353b04618a154f4881cb8ab869/images/icons8-gear-64.png"></Image>
+                </StackPanel>
+            </Button>
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+        </Grid>
+        <ItemsControl x:Name="SnippetsItemControl"
+                  ItemsSource="{Binding}"
+                  Margin="10,50,10,10">
+
+            <!--Панель айтемсконтрол, ставит окошки в сетку по 3 колонны-->
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Columns="3"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <!--Шаблон для окошка-->
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border Background="#1a1a1a" 
+                BorderBrush="#a8394a" 
+                BorderThickness="1" 
+                CornerRadius="5" 
+                Margin="5" 
+                Padding="10"
+                MaxHeight="150"
+                MouseLeftButtonUp="Card_Click">
+                        <TextBlock Text="{Binding Title}" Foreground="#a8394a" 
+                       FontSize="14" />
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+    </Grid>
+</Page>

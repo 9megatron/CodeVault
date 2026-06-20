@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Media;
+using System.Collections.ObjectModel;
+using SnippetBox.Models;
 
 namespace SnippetBox
 {
@@ -22,21 +24,10 @@ namespace SnippetBox
     /// </summary>
     public partial class MainWindow : Window
     {
-        SoundPlayer Simple = new SoundPlayer("G:\\VS projects\\SnippetBox\\SnippetBox\\Sounds\\cartoon-button-click-sound.wav");
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void NewVault_Click(object sender, RoutedEventArgs e)
-        {
-            
-            Simple.Play();
-        }
-
-        private void SettingsButton_Click(object sender, RoutedEventArgs e)
-        {
-            Simple.Play();
+            MainFrame.Content = new MainPage();
         }
     }
 }

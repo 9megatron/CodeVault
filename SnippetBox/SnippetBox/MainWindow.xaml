@@ -6,46 +6,6 @@
         xmlns:local="clr-namespace:SnippetBox"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="MainGrid" Background="Black">
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
-        <Grid Grid.Row="0" Grid.ColumnSpan="3">
-            <Button Grid.Column="7"  Background="Transparent" Style="{StaticResource NeonButtonStyle}" Click="NewVault_Click" Margin="10,5,50,5">
-                <StackPanel Orientation="Horizontal">
-                    <Image Stretch="Fill" Source="https://raw.githubusercontent.com/9megatron/CodeVault/d2a468abe9829c353b04618a154f4881cb8ab869/images/icons8-plus-48.png"/>
-                </StackPanel>
-            </Button>
-            <Button Grid.Column="6" Background="Transparent" Style="{StaticResource NeonButtonStyle}" Click="SettingsButton_Click" Margin="50,5,0,5">
-                <StackPanel Orientation="Horizontal">
-                    <Image Stretch="Fill" Source="https://raw.githubusercontent.com/9megatron/CodeVault/d2a468abe9829c353b04618a154f4881cb8ab869/images/icons8-gear-64.png"></Image>
-                </StackPanel>
-            </Button>
-            <Grid.ColumnDefinitions>
-
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-                <ColumnDefinition></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
-        </Grid>
-
-    </Grid>
+    <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
 </Window>

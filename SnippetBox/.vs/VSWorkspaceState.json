@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SnippetBox"
+    "\\SnippetBox",
+    "\\SnippetBox\\Models"
   ],
   "SelectedNode": "\\SnippetBox.sln",
   "PreviewInSolutionExplorer": false
